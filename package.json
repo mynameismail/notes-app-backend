@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./src",
+    "migrate": "node-pg-migrate",
     "start-dev": "nodemon ./src/server.js",
     "start-prod": "NODE_ENV=production node ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +21,10 @@
   },
   "dependencies": {
     "@hapi/hapi": "^21.0.0",
+    "dotenv": "^16.0.3",
     "joi": "^17.7.0",
-    "nanoid": "^3.3.4"
+    "nanoid": "^3.3.4",
+    "node-pg-migrate": "^6.2.2",
+    "pg": "^8.8.0"
   }
 }
