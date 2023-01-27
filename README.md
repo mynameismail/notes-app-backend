@@ -1,1 +1,1 @@
-Frontend: http://notesapp-v2.dicodingacademy.com/
+Frontend: http://notesapp-v3.dicodingacademy.com/
